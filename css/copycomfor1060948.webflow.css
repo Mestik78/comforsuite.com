@@ -1,0 +1,557 @@
+body {
+  background-color: white;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+h1 {
+  margin-top: -2px;
+  margin-bottom: 11px;
+  font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  color: #f38000;
+  font-size: 36px;
+  line-height: 44px;
+  font-style: normal;
+  font-weight: 300;
+}
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #f38000;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+h3 {
+  margin-top: 24px;
+  margin-bottom: 18px;
+  padding-bottom: 0px;
+  opacity: 1;
+  color: #f38000;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  text-align: left;
+}
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #e07717;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 0px;
+  padding-top: 26px;
+  font-family:'Open Sans', sans-serif;
+  color: black;
+  line-height: 19px;
+  text-align: justify;
+}
+.button {
+  display: inline-block;
+  padding: 4px 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.menu {
+  background-color: white;
+}
+.imagencolumna {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+}
+.header {
+  height: auto;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  background-image: url('../images/fondoheader.jpg');
+  background-position: 0% 0%;
+  background-size: auto 150px;
+  background-repeat: repeat-x;
+}
+.botonera {
+  height: 95px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  background-color: white;
+  text-align: left;
+}
+.bloquecolumnas {
+  margin-top: 50px;
+}
+.boton {
+  margin-right: 10px;
+  padding: 7px 7px 10px 4px;
+  font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  font-size: 17px;
+  text-align: center;
+}
+.boton:hover {
+  background-color: #f38000;
+  color: white;
+}
+.boton.w--current {
+  margin-right: 10px;
+  padding-right: 4px;
+  padding-left: 4px;
+  text-align: center;
+}
+.headerbarra {
+  height: 40px;
+  margin-top: 1px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-image: url('../images/barra.jpg');
+}
+.slide {
+  background-image: url('../images/slid1.jpg');
+  background-size: cover;
+  background-attachment: scroll;
+}
+.seccion1 {
+  padding-top: 40px;
+}
+.homeparrafo {
+  padding-top: 49px;
+}
+.bloquehome {
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: white;
+}
+.bloquereservas {
+  margin-bottom: 0px;
+  padding-top: 45px;
+  padding-bottom: 10px;
+  background-color: transparent;
+}
+.seccionsociales {
+  margin-bottom: 32px;
+  padding-top: 45px;
+  background-color: transparent;
+}
+.seccionbloques {
+  padding-top: 36px;
+  background-color: white;
+}
+.columna {
+  z-index: 0;
+  color: #f38000;
+  text-align: center;
+}
+.parrafonaranja {
+  padding-top: 20px;
+  color: #f38000;
+  line-height: 17px;
+}
+.bloquesociales {
+  background-color: white;
+  text-align: center;
+}
+.barraslider {
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  opacity: 1;
+}
+.enlace {
+  color: black;
+}
+.listaa {
+  margin-top: 0px;
+  padding-top: 41px;
+  color: #f38000;
+  font-size: 16px;
+  line-height: 29px;
+  font-style: italic;
+  font-weight: 400;
+}
+.titulo {
+  line-height: 27px;
+  font-style: italic;
+  text-align: center;
+}
+.boecillo {
+  padding: 7px 24px 15px 25px;
+  background-color: white;
+  color: black;
+}
+.parrafito {
+  padding-bottom: 10px;
+  font-size: 16px;
+  line-height: 23px;
+  font-style: italic;
+}
+.puntos {
+  font-size: 16px;
+  line-height: 28px;
+}
+.items {
+  color: #fcb035;
+}
+.lineas-naranjas {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: #f19a39;
+  font-weight: 600;
+}
+.cabecera {
+  background-color: transparent;
+}
+.columnareserva {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  float: left;
+  text-align: right;
+}
+.bloquereservass {
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: white;
+}
+.contenedorreservas {
+  z-index: 200;
+  background-color: white;
+}
+.contenedorhome {
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: white;
+}
+.contenedorsocial {
+  background-color: white;
+  text-align: center;
+}
+.contenedorbloques {
+  padding-top: 18px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: white;
+}
+.slogan {
+  height: auto;
+  margin-top: -20px;
+  padding-top: 0px;
+  background-color: #71726f;
+}
+.slogantext {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  color: white;
+  font-style: italic;
+  font-weight: 600;
+  text-align: left;
+}
+.imagenn {
+  padding-top: 0px;
+}
+.expe {
+  padding-top: 22px;
+  font-weight: 400;
+  text-align: left;
+}
+.experi {
+  margin-top: 26px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.bodyestancias {
+  background-image: url('../images/fpattern.png'), url('https://comforsuite.com/images/example-bg.png');
+  background-size: auto, 125px;
+}
+.bodyboecillo {
+  background-color: gray;
+}
+.mapa {
+  padding-top: 29px;
+  color: black;
+  font-size: 12px;
+  text-align: center;
+}
+.tumb {
+  width: 150px;
+  height: 150px;
+  padding-bottom: 3px;
+}
+.gale {
+  text-align: center;
+}
+.headingale {
+  margin-left: 34px;
+  text-align: left;
+}
+.textoslider {
+  height: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 24px;
+  border-radius: 0px;
+  background-color: black;
+  opacity: 1;
+  color: white;
+  font-size: 20px;
+  line-height: 18px;
+  font-style: italic;
+  font-weight: 400;
+}
+.imagenlibro {
+  margin-top: 29px;
+  padding-left: 4px;
+}
+.columnalibro {
+  margin-top: 65px;
+}
+.clasemapa {
+  margin-top: 26px;
+  padding-top: 0px;
+}
+.sloganslider {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-left: 27px;
+  background-color: rgba(255, 123, 0, 0.72);
+  opacity: 1;
+  font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+  font-style: italic;
+  font-weight: 300;
+}
+.bloqueslider {
+  width: 100%;
+  height: 100%;
+}
+.claseslider {
+  width: 95%;
+  margin-left: 25px;
+  padding-left: 0px;
+  float: none;
+  text-align: center;
+}
+.botoncikos {
+  padding-top: 65px;
+  background-color: black;
+}
+.slide1 {
+  background-image: url('../images/slider1finalok.jpg');
+  background-size: 940px 400px;
+}
+.slide2 {
+  background-image: url('../images/slider2final.jpg');
+  background-size: cover;
+}
+.slide3 {
+  background-image: url('../images/slider3final.jpg');
+  background-size: cover;
+  background-attachment: scroll;
+}
+.slide4 {
+  background-image: url('../images/slider4finalok.jpg');
+  background-size: cover;
+}
+.slide5 {
+  background-image: url('../images/slider5final.jpg');
+  background-size: cover;
+}
+.slide6 {
+  background-image: url('../images/slider6final.jpg');
+  background-size: cover;
+}
+.traduce {
+  float: right;
+}
+.loguitoentexto {
+  font-family:'Open Sans', sans-serif;
+  font-size: 19px;
+}
+.popup {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 2;
+  width: auto;
+  height: auto;
+  background-color: rgba(128, 128, 128, 0.6);
+  background-image: -webkit-radial-gradient(50% 50%, circle, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.74) 91%);
+  background-image: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.74) 91%);
+}
+.popup-cont {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  right: auto;
+}
+.seccion {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  right: 0px;
+  bottom: 0px;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.49);
+  -webkit-transform: translate(0px, -50%);
+  -ms-transform: translate(0px, -50%);
+  transform: translate(0px, -50%);
+}
+.gal-imagen {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.popup-fondo {
+  position: fixed;
+  left: 0px;
+  top: 50%;
+  right: 0px;
+  bottom: 0px;
+  z-index: 2;
+  background-color: rgba(128, 128, 128, 0.49);
+}
+.iconossociales {
+  float: right;
+}
+.botonsocial {
+  width: 30px;
+  height: 30px;
+  background-image: url('../images/socfac.jpg');
+  background-size: 30px;
+  background-repeat: no-repeat;
+}
+.reservas {
+  z-index: 1;
+}
+.linea {
+  width: 942px;
+  height: 4px;
+  margin-bottom: 31px;
+  background-color: #f80;
+}
+.tlfno {
+  padding-right: 108px;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 31px;
+  font-style: normal;
+  text-align: right;
+}
+.slider {
+  height: 370px;
+  margin-top: 13px;
+}
+.slide01 {
+  background-image: url('../images/slide1.jpg');
+  background-size: 100px;
+  background-attachment: fixed;
+}
+.elsliide.fondo1 {
+  background-image: url('../images/slide1.jpg');
+  background-size: 100%;
+}
+.vivir2 {
+  margin-top: -401px;
+  margin-bottom: 0px;
+  padding-bottom: 4px;
+}
+.vivir3 {
+  margin-top: -134px;
+  margin-left: 322px;
+}
+.vivir1 {
+  margin-top: 4px;
+  margin-bottom: 12px;
+}
+.texto-resaltado {
+  color: #fc5d00;
+  font-weight: 700;
+}
+.centrar {
+  text-align: center;
+}
+.espacioa {
+  padding-top: 63px;
+}
+@media (max-width: 991px) {
+  .slide1 {
+    background-size: cover;
+  }
+  .slider {
+    height: 232px;
+  }
+}
+@media (max-width: 767px) {
+  .slide1 {
+    background-size: cover;
+  }
+  .slider {
+    height: 182px;
+  }
+}
+@media (max-width: 479px) {
+  .botonera {
+    height: 95px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    background-color: white;
+    opacity: 1;
+  }
+  .slogantext {
+    font-family: Exo, sans-serif;
+    font-style: italic;
+  }
+  .sloganslider {
+    font-size: 12px;
+    line-height: 13px;
+  }
+  .slide1 {
+    background-size: cover;
+    background-attachment: scroll;
+  }
+  .slider {
+    width: 320px;
+    height: 102px;
+  }
+}
+
