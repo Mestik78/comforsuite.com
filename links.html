@@ -68,94 +68,132 @@
   <div class="bloquehome">
     <div class="w-container">
       <div class="w-embed">
-        <h1>Links</h1>
-        <div>
-          <h3><span style="color: #33cccc;">Valladolid Internacional</span></h3>
-          <div><a title="https://www.valladolidinternacional.es" href="https://www.valladolidinternacional.es/" target="_blank">&gt;&nbsp;https://www.valladolidinternacional.es</a>
-          </div>
-          <div>&nbsp;</div>
-          <div>
-            <h3><span style="color: #33cccc;">Universidad de Valladolid</span></h3>
-            <div><a title="https://www.uva.es" href="https://www.uva.es/" target="_blank">&gt;&nbsp;https://www.uva.es</a>
-            </div>
-            <div>&nbsp;</div>
-            <div>
-              <h3><span style="color: #33cccc;">Cámara de Comercio e Indrustria de Valladolid</span></h3>
-              <div><a title="https://www.camaravalladolid.com" href="https://www.camaravalladolid.com/" target="_blank">&gt;&nbsp;https://www.camaravalladolid.com</a>
-              </div>
-              <div>&nbsp;</div>
-              <div>
-                <h3><span style="color: #33cccc;">Ayuntamiento de Valladolid</span></h3>
-                <div><a title="https://www.valladolid.es" href="https://www.valladolid.es/" target="_blank">&gt;&nbsp;https://www.valladolid.es</a>
-                </div>
-                <div>&nbsp;</div>
-                <div>
-                  <h3><span style="color: #33cccc;">RENFE</span></h3>
-                  <div><a title="https://www.renfe.es" href="https://www.renfe.es/" target="_blank">&gt;&nbsp;https://www.renfe.es</a>
-                  </div>
-                  <div>&nbsp;</div>
-                  <div>
-                    <h3><span style="color: #33cccc;">Aeropuerto de Valladolid</span></h3>
-                    <div><a title="https://www.aena.es" href="https://www.aena.es/" target="_blank">&gt;&nbsp;https://www.aena.es</a>
-                    </div>
-                    <div>&nbsp;</div>
-                    <div>
-                      <h3><span style="color: #33cccc;">Autobuses Urbanos</span></h3>
-                      <div><a title="https://www.auvasa.es" href="https://www.auvasa.es/" target="_blank">&gt;&nbsp;https://www.auvasa.es</a>
-                      </div>
-                      <div>&nbsp;</div>
-                      <div>
-                        <h3><span style="color: #33cccc;">Semana Internacional de Cine de Valladolid (SEMINCI)</span></h3>
-                        <div><a title="https://www.seminci.es" href="https://www.seminci.es/" target="_blank">&gt;&nbsp;https://www.seminci.es</a>
-                        </div>
-                        <div>&nbsp;</div>
-                        <div>
-                          <h3><span style="color: #33cccc;">Semana Santa de Valladolid</span></h3>
-                          <div><a title="https://www.jcssva.org" href="https://www.jcssva.org/" target="_blank">&gt;&nbsp;https://www.jcssva.org</a>
-                          </div>
-                          <div>&nbsp;</div>
-                          <div>
-                            <h3><span style="color: #33cccc;">Camino de Santiago en Valladolid</span></h3>
-                            <div><a title="https://www.ajova.es" href="https://www.ajova.es/" target="_blank">&gt;&nbsp;https://www.ajova.es</a>
-                            </div>
-                            <div>&nbsp;</div>
-                            <div>
-                              <h3><span style="color: #33cccc;">Dirección General de Turismo de la Junta de Castilla y León</span></h3>
-                              <div><a title="https://www.turismocastillayleon.com" href="https://www.turismocastillayleon.com/" target="_blank">&gt;&nbsp;https://www.turismocastillayleon.com</a>
-                              </div>
-                              <div>
-                                <br>
-                                <h3><span style="color: #33cccc;">Portal de Cultura y Turismo</span></h3>
-                                <div><a title="https://www.info.valladolid.es" href="https://www.info.valladolid.es/" target="_blank">&gt;&nbsp;https://www.info.valladolid.es</a>
-                                </div>
-                                <div>&nbsp;</div>
-                                <div>
+        <style>
+          .modern-links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+          }
+          .modern-link-card {
+            display: block;
+            padding: 15px 20px;
+            background: #ffffff;
+            text-decoration: none;
+            border: 1px solid #e5e5e5;
+            border-left: 4px solid #e5e5e5;
+            transition: border-color 0.2s ease, background-color 0.2s ease;
+          }
+          .modern-link-card:hover {
+            background-color: #fdfdfd;
+            border-color: #cccccc;
+            border-left-color: #f38000;
+          }
+          .modern-link-card:hover .modern-link-title {
+            color: #f38000;
+          }
+          .modern-link-title {
+            color: #555555;
+            margin-top: 0;
+            margin-bottom: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            transition: color 0.3s ease;
+          }
+          .modern-link-url {
+            color: #888888;
+            font-size: 14px;
+            word-break: break-all;
+            display: flex;
+            align-items: center;
+          }
+          .modern-link-url::before {
+            content: "→";
+            margin-right: 6px;
+            color: #f38000;
+            font-weight: bold;
+          }
+          .modern-links-header {
+            border-bottom: 2px solid #f38000;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            color: #555555;
+            font-weight: 300;
+          }
+        </style>
 
-                                  <div>
-                                    <h3><span style="color: #33cccc;">El Tiempo</span></h3>
-                                    <div><a title="https://www.eltiempo.es/" href="https://www.eltiempo.es/" target="_blank">&gt;&nbsp;https://www.eltiempo.es</a>
-                                    </div>
-                                    <div>&nbsp;</div>
-                                    <div>
-                                      <h3><span style="color: #33cccc;">Bodega Los Tarantos</span></h3>
-                                      <div><a title="https://www.bodegalostarantos.com/" href="https://www.bodegalostarantos.com/" target="_blank">&gt;&nbsp;https://www.bodegalostarantos.com/</a>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div>&nbsp;</div>
-                                <div>&nbsp;</div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <h1 class="modern-links-header">Enlaces de Interés</h1>
+        
+        <div class="modern-links-grid">
+          <a class="modern-link-card" title="https://www.valladolidinternacional.es/" href="https://www.valladolidinternacional.es/" target="_blank">
+            <h3 class="modern-link-title">Valladolid Internacional</h3>
+            <span class="modern-link-url">valladolidinternacional.es</span>
+          </a>
+          
+          <a class="modern-link-card" title="https://www.uva.es/" href="https://www.uva.es/" target="_blank">
+            <h3 class="modern-link-title">Universidad de Valladolid</h3>
+            <span class="modern-link-url">uva.es</span>
+          </a>
+          
+          <a class="modern-link-card" title="https://www.camaravalladolid.com/" href="https://www.camaravalladolid.com/" target="_blank">
+            <h3 class="modern-link-title">Cámara de Comercio e Industria</h3>
+            <span class="modern-link-url">camaravalladolid.com</span>
+          </a>
+          
+          <a class="modern-link-card" title="https://www.valladolid.es/" href="https://www.valladolid.es/" target="_blank">
+            <h3 class="modern-link-title">Ayuntamiento de Valladolid</h3>
+            <span class="modern-link-url">valladolid.es</span>
+          </a>
+          
+          <a class="modern-link-card" title="https://www.renfe.es/" href="https://www.renfe.es/" target="_blank">
+            <h3 class="modern-link-title">RENFE</h3>
+            <span class="modern-link-url">renfe.es</span>
+          </a>
+          
+          <a class="modern-link-card" title="https://www.aena.es/" href="https://www.aena.es/" target="_blank">
+            <h3 class="modern-link-title">Aeropuerto de Valladolid</h3>
+            <span class="modern-link-url">aena.es</span>
+          </a>
+          
+          <a class="modern-link-card" title="https://www.auvasa.es/" href="https://www.auvasa.es/" target="_blank">
+            <h3 class="modern-link-title">Autobuses Urbanos</h3>
+            <span class="modern-link-url">auvasa.es</span>
+          </a>
+          
+          <a class="modern-link-card" title="https://www.seminci.es/" href="https://www.seminci.es/" target="_blank">
+            <h3 class="modern-link-title">SEMINCI</h3>
+            <span class="modern-link-url">seminci.es</span>
+          </a>
+          
+          <a class="modern-link-card" title="https://www.jcssva.org/" href="https://www.jcssva.org/" target="_blank">
+            <h3 class="modern-link-title">Semana Santa de Valladolid</h3>
+            <span class="modern-link-url">jcssva.org</span>
+          </a>
+          
+          <a class="modern-link-card" title="https://www.ajova.es/" href="https://www.ajova.es/" target="_blank">
+            <h3 class="modern-link-title">Camino de Santiago (Valladolid)</h3>
+            <span class="modern-link-url">ajova.es</span>
+          </a>
+          
+          <a class="modern-link-card" title="https://www.turismocastillayleon.com/" href="https://www.turismocastillayleon.com/" target="_blank">
+            <h3 class="modern-link-title">Turismo Castilla y León</h3>
+            <span class="modern-link-url">turismocastillayleon.com</span>
+          </a>
+          
+          <a class="modern-link-card" title="https://www.info.valladolid.es/" href="https://www.info.valladolid.es/" target="_blank">
+            <h3 class="modern-link-title">Portal de Cultura y Turismo</h3>
+            <span class="modern-link-url">info.valladolid.es</span>
+          </a>
+          
+          <a class="modern-link-card" title="https://www.eltiempo.es/" href="https://www.eltiempo.es/" target="_blank">
+            <h3 class="modern-link-title">El Tiempo</h3>
+            <span class="modern-link-url">eltiempo.es</span>
+          </a>
+          
+          <a class="modern-link-card" title="https://www.bodegalostarantos.com/" href="https://www.bodegalostarantos.com/" target="_blank">
+            <h3 class="modern-link-title">Bodega Los Tarantos</h3>
+            <span class="modern-link-url">bodegalostarantos.com</span>
+          </a>
         </div>
         <!-- end .et_lb_text_block -->
       </div>
